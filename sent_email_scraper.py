@@ -52,5 +52,5 @@
 
     # Save to Excel
     df = pd.DataFrame(email_data)
-    df.to_csv("Phyllis_outbox_emails.csv")
-    print(f"✅ Exported {len(df)} sent emails.")
+    df.to_csv("outbox_emails.csv")
+    print(f"Exported {len(df)} sent emails.")
